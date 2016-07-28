@@ -84,3 +84,34 @@ input[type="text"],
 input[type="email"]{
   border: 1px solid blue;
 }
+
+/****** layout.html ****/
+
+.main-container{
+  /*max-width: 960px;*/
+  margin: auto;
+}
+
+.site-menu,
+.sidebar{
+  width: 20%;
+}
+
+.main-content{
+  width: 60%;
+  background-color: LightPink;
+}
+
+.site-menu{
+  background-color: LightGoldenrodYellow;
+}
+
+.sidebar{
+  background-color: LightSteelBlue;
+}
+
+.site-menu,
+.main-content,
+.sidebar{
+  float: left;
+}
