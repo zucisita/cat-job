@@ -1,3 +1,4 @@
+/****** article.html *****/
 body{
   font-family: Verdana;
 }
@@ -23,4 +24,30 @@ article figure{
 
 article figure img{
   width: 100%;
+}
+/***** menu.html *****/
+nav ul{
+  background-color: PaleVioletRed;
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  border: 1px solid MediumVioletRed;
+}
+
+nav ul li{
+  border-bottom: 1px solid MediumVioletRed;
+  padding: 5px;
+}
+
+nav ul li:last-child{
+  border-bottom: 0;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
 }
