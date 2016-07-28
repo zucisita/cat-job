@@ -78,3 +78,9 @@ nav ul li a:hover{
 .site-nav .site-nav-item a:hover{
   text-decoration: underline;
 }
+
+/***** form.html *****/
+input[type="text"],
+input[type="email"]{
+  border: 1px solid blue;
+}
